@@ -5,7 +5,7 @@ public class Main {
     public static final int wordlistLength = 69903;
     public static void main(String[] args) throws Exception {
         String[] wordlist = new String[wordlistLength];
-        Scanner fileSc = new Scanner(new File("C://Users/Patrick/Documents/English wordlist.txt"));
+        Scanner fileSc = new Scanner(new File("English wordlist.txt"));
         for (int i = 0; i < wordlistLength; i++) {
             wordlist[i] = fileSc.nextLine();
         }
